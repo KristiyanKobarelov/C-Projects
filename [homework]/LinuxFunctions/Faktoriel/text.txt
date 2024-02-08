@@ -1,0 +1,4 @@
+gcc -c math.c -o math.o
+pwd
+ar rcs libmath.a maths.o
+gcc main.c -L /home/runner/LinuxCommands-5 -lmath -o main.out
